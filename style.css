@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(gambarCCNT/wp6290020.webp);
+    /* border: 1px solid red; */
+}
+
+.container{
+    background-color: black;
+    height: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    color: white;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.home, .about, .gallery{
+    margin: 0 30px 0 0;    
+}
+
+.home:hover{
+    opacity: 80%;
+}
+
+.about:hover{
+    opacity: 80%;
+}
+
+.gallery:hover{
+    opacity: 80%;
+}
+
+.logo{
+    display: flex;
+}
+
+.flex-start{
+    display: flex;
+    align-items: center;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+/* view start */
+.welcome{
+    font-family: 'Courier New', Courier, monospace;
+}
+.bg-view{
+    background-image: url(gambarCCNT/backgorund-hitam.jpg);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding : 10px 0 0 0;
+    margin : 5px 0 0 0;
+}
+
+.web{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2% 0 3% 0;
+}
+
+.isi{
+    margin: 0 8% 0 8%;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.footer{
+    height: 40px;
+    background-color: rgb(37, 41, 39);
+    justify-content: space-evenly;
+}
+.sosmed{
+    padding-top: 0.3%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.jadwal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.coconut{
+    margin-left: 38%;
+    width: 25%;
+}
+.calgot,.fa-arrow-right,.anggota{
+    margin: 25px 15px 10px 15px;
+}
+
+/* Member */
+.member{
+    margin-left: 20px;
+}
+
+.list-member{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.anggota1, .anggota2,
+.anggota3, .anggota4,
+.anggota5, .anggota6,
+.anggota7, .anggota8,
+.anggota9, .anggota10,
+.anggota11, .anggota12,
+.anggota13, .anggota14,
+.anggota15{
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    margin: 20px 35px 40px 15px;
+}
+
+.anggota1:hover, .anggota2:hover,
+.anggota3:hover, .anggota4:hover,
+.anggota5:hover, .anggota6:hover,
+.anggota7:hover, .anggota8:hover,
+.anggota9:hover, .anggota10:hover,
+.anggota11:hover, .anggota12:hover,
+.anggota13:hover, .anggota14:hover,
+.anggota15:hover{
+    opacity: 50%;
+}
+
+.anggota1 img, .anggota2 img,
+.anggota3 img, .anggota4 img,
+.anggota5 img, .anggota6 img,
+.anggota7 img, .anggota8 img,
+.anggota9 img, .anggota10 img,
+.anggota11 img, .anggota12 img,
+.anggota13 img, .anggota14 img,
+.anggota15 img{
+    border-radius: 15px;
+    width: 100%; 
+    height: 95%;
+    margin-top: 15px;
+}
+
+/* BIodata anggota */
+table{
+    margin: 0 auto 0 auto;
+}
+table img{
+    margin: 15px;
+}
+table td{
+    margin: 0 5px 0 5px;
+}
+
+.img-biodata{
+    border-radius: 10px;
+}
+
+.sosmedd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 14px;
+
+}
+.sosmed:hover{
+    opacity: 80%;
+}
+
+/* Gallery */
+.galleryy{
+    margin: 0 8% 0 8%;
+}
+.fovi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.isi-foto{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Pembelajaran,.Pelatda,
+.Root,.Pengukuhan,.random {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    margin: 20px 35px 40px 15px;
+}
+.Pembelajaran img:hover,
+.Pelatda img:hover,
+.Root img:hover,
+.random img:hover,
+.Pengukuhan img:hover{
+    filter: blur(3px) brightness(80%);
+}
+
+.Pembelajaran img,
+.Pelatda img,
+.Root img,
+.random img,
+.Pengukuhan img{
+    border-radius: 5px;
+    width: 100%; 
+    height: 95%;
+    margin: 15px 15px 0 15px;  
+    flex-wrap: wrap;
+}
+
+.isi-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Pembelajaran1,.Pembelajaran2,
+.Pembelajaran3,.Pembelajaran4,
+.Pembelajaran5,.Pembelajaran6,
+.Pembelajaran7,.Pembelajaran8,
+.Pelatda1 {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    margin: 10px 15px 20px 15px;
+}
+.Pembelajaran1 img,.Pembelajaran2 img,
+.Pembelajaran3 img,.Pembelajaran4 img,
+.Pembelajaran5 img,.Pembelajaran6 img,
+.Pembelajaran7 img,.Pembelajaran8 img,
+.Pelatda1 img{
+    border-radius: 5px;
+    width: 100%; 
+    height: 95%;
+    margin: 15px 15px 0 15px;  
+}
+.Pembelajaran1:hover,.Pembelajaran2:hover,
+.Pembelajaran3:hover,.Pembelajaran4:hover,
+.Pembelajaran5:hover,.Pembelajaran6:hover,
+.Pembelajaran7:hover,.Pembelajaran8:hover,
+.Pelatda1:hover{
+    opacity: 70%;
+}
+
+/* video */
+.isi-video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 20px 0 20px;
+}
+.video{
+    margin-bottom: 40px;
+}
